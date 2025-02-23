@@ -1,0 +1,11 @@
+version: '1.0.0'
+
+services:
+  mongodb:
+    image: mongodb/mongodb-community-server
+    ports: 
+      - "27017:27017"
+  node-server:
+    image: node-server
+    ports:
+      - "3000:3000"
