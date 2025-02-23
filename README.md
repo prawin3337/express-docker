@@ -7,6 +7,7 @@ docker exec -it <container-id> bash
 docker run -it -e PORT=4000 -p 4000:4000 node-server
 
 # To run multiple containers
+docker compose build // build local images
 docker compose up (uses docker-compose.yml file)
 docker compose up -d // background run
 docker compose down // remove container stack
