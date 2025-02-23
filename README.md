@@ -5,6 +5,7 @@ docker build -t node-server .
 docker run -it -p 3000:3000 node-server
 docker exec -it <container-id> bash
 docker run -it -e PORT=4000 -p 4000:4000 node-server
+docker run -d --name mongo-container -p 27017:27017 my-mongo // named container
 
 # To run multiple containers
 docker compose build // build local images
