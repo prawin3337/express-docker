@@ -27,3 +27,5 @@ docker compose down // remove container stack
 #Backup and restore the docker images
 
 https://medium.com/munchy-bytes/backup-and-restore-docker-containers-a-quick-guide-640b1b135207
+
+docker exec -it postgres bash
